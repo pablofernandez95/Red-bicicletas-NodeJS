@@ -34,7 +34,7 @@ Bicicleta.removeById = function(aBiciId){
     }
 }
 
-var a = new Bicicleta (1, 'rojo', 'urbana',[1111111,1111111,12]); //coordenada
+var a = new Bicicleta (1, 'rojo', 'urbana',[-34.564522,-58.516748]); //coordenada
 Bicicleta.add(a);
 
 //Exporto el modelo
