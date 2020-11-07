@@ -34,8 +34,19 @@ Bicicleta.removeById = function(aBiciId){
     }
 }
 
-var a = new Bicicleta (1, 'rojo', 'urbana',[-34.564522,-58.516748]); //coordenada
+//Seteando bicicletas por default
+var a = new Bicicleta (1, 'Rojo', 'Urbana',[-34.564522,-58.516748]); 
+var b = new Bicicleta (2, 'Amarillo', 'Mountain Bike',[-34.5994149,-58.5144537]); 
+var c = new Bicicleta (3, 'Verde', 'Freestyle',[-34.605202,-58.491114]); 
+var d = new Bicicleta (4, 'Gris', 'Urbana',[-34.571240,-58.441714]); 
+var e = new Bicicleta (5, 'Gris', 'Freestyle',[-34.594144,-58.430437]); 
+var f = new Bicicleta (6, 'Azul', 'Mountain Bike',[-34.5859898,-58.3964441]); 
 Bicicleta.add(a);
+Bicicleta.add(b);
+Bicicleta.add(c);
+Bicicleta.add(d);
+Bicicleta.add(e);
+Bicicleta.add(f);
 
 //Exporto el modelo
 module.exports = Bicicleta;
