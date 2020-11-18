@@ -35,7 +35,7 @@ Bicicleta.removeById = function(aBiciId){
 }
 
 //Seteando bicicletas por default
-var a = new Bicicleta (1, 'Rojo', 'Urbana',[-34.564522,-58.516748]); 
+/*var a = new Bicicleta (1, 'Rojo', 'Urbana',[-34.564522,-58.516748]); 
 var b = new Bicicleta (2, 'Amarillo', 'Mountain Bike',[-34.5994149,-58.5144537]); 
 var c = new Bicicleta (3, 'Verde', 'Freestyle',[-34.605202,-58.491114]); 
 var d = new Bicicleta (4, 'Gris', 'Urbana',[-34.571240,-58.441714]); 
@@ -47,6 +47,6 @@ Bicicleta.add(c);
 Bicicleta.add(d);
 Bicicleta.add(e);
 Bicicleta.add(f);
-
+*/
 //Exporto el modelo
 module.exports = Bicicleta;
